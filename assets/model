@@ -1,0 +1,87 @@
+Información Personal
+	nombres
+	apodo ( opc )
+	apellidos
+	edad
+	genero
+	fecha de nacimiento
+
+Contacto
+	Teléfono
+	Correo Electronico
+	Redes Sociales 
+		si / no
+			Wa
+			Fb
+			Ig
+			Tg
+			X
+			TisTos
+	Dirección
+		calle y numero
+		departamento
+		provincia
+
+Nivel SOcioEconomico
+	Nivel Educativo
+		máximo nivel de estudios alcanzado
+		Actualmente estudiando
+			semestre académico
+			Escuela Prof
+
+	Información Laboral
+		actualmente empleado
+			si / no
+			t. completo / parcial ( opc )
+			Ingresos mensual / semanal (rango)
+
+Situacion Sentimental
+	Tiene pareja 
+		si / no
+	Estado Civil
+		Tiene hijos??
+
+Salud y Bienestar
+	Padece enfermedad Crónica
+		si / no
+			especific ( opc )
+	actividad fisica semanal ( opc mult )
+		0
+		1-2
+		3-4
+		5+
+
+Habitos y Estilo de Vida
+	Fuma ???
+		si / no
+	Bebidas Alcoholicas ???
+		si / no
+	Actividades Recreativas
+		juegos onlline
+		redes sociales
+		###
+		###
+		###
+//
+Opiniones o Interes
+	¿Cuál considera que es su mayor logro personal?
+	¿Qué cambios le gustaría ver en su entorno?
+
+Consentimientos y Comentarios
+	¿Está de acuerdo en que los datos proporcionados sean utilizados únicamente para fines de este estudio? 		(Sí/No)
+	¿Desea agregar algún comentario adicional?
+
+
+
+/actualmente_estudia
+	|-- no
+	|-- si
+		/nivel_ducativo
+			|-- inicial
+			|-- primaria
+			|-- secundaria 
+			|-- superior
+			|-- universidad
+				/nombre_universidad
+				/escuela_profesional
+				/semestre_academico
